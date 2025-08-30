@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: #77BEF0;
   color: #333;
   line-height: 1.6;
 }
@@ -153,3 +153,65 @@ section {
    rgba(0,0,0,1) 100%);
 
 }
+/* Headquarter */
+.headquarter {
+  text-align: center;
+  padding: 40px 20px;
+  background: #77BEF0;
+}
+.cities {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.city img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #EA5B6F;
+}
+.city p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Message Us */
+.message-us {
+  background: #f9f9f9;
+  padding: 40px;
+}
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+form {
+  flex: 1;
+  min-width: 250px;
+}
+form input, form textarea {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+}
+.form-result {
+  flex: 1;
+  min-width: 250px;
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+.footer {
+  background: #EA5B6F;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+  font-size: 0.9em;
+  box-shadow: 0 -2px 4px rgba(0,0,0,0.2);
+}
+ 
